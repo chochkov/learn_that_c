@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void print_array(int *arr, int count, char *caption)
+void print_array(int *arr, int count, const char *caption)
 {
   printf("%s:\n", caption);
 
